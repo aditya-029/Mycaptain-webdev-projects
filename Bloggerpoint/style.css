@@ -1,27 +1,38 @@
 * {
   font-family: "Open Sans", sans-serif;
   color: white;
+  text-decoration: none;
+  list-style: none;
 }
 body {
-  background-color: black;
+  background-color: #262626;
 }
 
+div {
+  text-align: center;
+  text-underline-position: below;
+}
+
+.a {
+  height: 50vh;
+}
+
+form.signup {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+form.login {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 10%;
+}
 footer {
-  margin-right: 10%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-
-  background-color: black;
-  color: white;
-  text-align: justify;
-  text-decoration: none;
+  align-content: flex-end;
 }
 
-form {
-  padding-left: 25%;
-  padding-right: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+img.Image {
+  height: 25em;
+  width: 50em;
 }
